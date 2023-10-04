@@ -21,4 +21,50 @@ body {
 
 .info {
     background-image: url(inclusion.jpg);
+    Background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 50px;
+    Width: 50px;
 }
+
+.txt-1 {
+    color: #fff;
+    text-transform: capitalizze;
+    font-size:20px;
+    margin-bottom: 25px;
+}
+
+.info h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size:50px;
+    margin-bottom:25px;
+} 
+
+
+.info hr {
+    width:55px;
+    border:4px.solid #fff;
+    margin-left: 170px;
+    margin-bottom:25px;
+} 
+
+.txt-2 {
+    color: #fff;
+    font-size:10px;
+}
+
+.form {
+    padding: 150px 100px;
+    wifth:50%;
+    text-align: center;
+    background-color; #fff;
+} 
+
+. form h2 {
+    color: #097EF6;
+    font-size: 30px;
+    margin-bottom: 25px;
+} 
