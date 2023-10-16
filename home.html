@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>¡Selecciona la asignatura!</title>
+    <style>
+        body {
+            background-color: #F79538;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 27px 10px; /* Aumenta la altura del botón */
+            font-weight: bold;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+        }
+
+        a.matematicas {
+            background-color: blue;
+        }
+
+        a.lenguaje {
+            background-color: red;
+        }
+
+        a.ingles {
+            background-color: yellow;
+        }
+
+        a.ciencias {
+            background-color: green;
+        }
+
+        a.historia {
+            background-color: #8E5006;
+        }
+    </style>
 </head>
 <body>
-    
+    <h2>Selecciona la asignatura</h2>
+    <ul>
+        <li><a class="matematicas" href="matematicas.html">Matemáticas</a></li>
+        <li><a class="lenguaje" href="lenguaje.html">Lenguaje</a></li>
+        <li><a class="ingles" href="ingles.html">Inglés</a></li>
+        <li><a class="ciencias" href="ciencias.html">Ciencias</a></li>
+        <li><a class="historia" href="historia.html">Historia</a></li>
+    </ul>
 </body>
 </html>
