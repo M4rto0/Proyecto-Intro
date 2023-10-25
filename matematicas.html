@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
-</head>
-<body>
-    <ul>
-        <li>1ºBasico</li>
-        <ul>
-            <li>suma y resta</li>
-            <li>contar</li>
-        </ul>
-        <li>2ºbasico</li>
-        <li>3ºbasico</li>
-        <li>4ºbasico</li>
-        <li>5ºbasico</li>
-        <li>6ºbasico</li>
-        <li>7ºbasico</li>
-        <li>8ºbasico</li>
-    </ul>
-</body>
-</html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tu Título</title>
+        <script src="https://kit.fontawesome.com/3714aea092.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <div class="header__superior">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="screach">
+                    <input type="search" placeholder="¿que desas buscar?">
+                </div>
+            </div>
+            <div class="container__menu">
+                <div class="menu">
+                    <input type="checkbox" id="check__menu">
+                    <label for="check__menu">
+                        <i class="fa-solid fa-bars icon__menu" style="color: #002461; "></i>
+                    </label>
+                    <nav>
+                        <ul>
+                            <li><a href="#" id="selected"></a></li>
+                            <li><a href="#">Geometría</a>
+                                <ul>
+                                    <li><a href="#">Ejercicios</a></li>
+                                    <li><a href="#">Clases</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Álgebra</a>
+                                <ul>
+                                    <li><a href="#">Clases</a></li>
+                                    <li><a href="#">Ejercicios</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Aritmética</a>
+                                <ul>
+                                    <li><a href="#">Clases</a></li>
+                                    <li><a href="#">Ejercicios</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Trigonometría</a>
+                                <ul>
+                                    <li><a href="#">Clases</a></li>
+                                    <li><a href="#">Ejercicios</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </body>
+    </html>
