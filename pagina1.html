@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+        <a href="#"class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./descarga.png" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">INICIO</a></li>
+                    <li><a href="">MATERIAS</a></li>
+                    <li><a href="">APUNTES</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Apoyo academico</h1>
+                <p>
+                    bienvenido
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div> 
+            <div class="header-img">
+                <img src="./brainlearning.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="about container">
+        <div class="about-img">
+            <img src="./inclusion.jpg" alt="">
+        </div>
+
+        <div class="about-txt">
+            <h2>Nosotros</h2>
+            <p>Estamos dedicados a segurite en tu progreso academico y poder ser un apoyo.</p>
+            <br>
+            <p>Creado por estudiantes para estudiantes</p>
+
+        </div>
+
+    </section>
+
+    <main class="servicios">
+        <h2>MATERIAS</h2>
+        <div class="servicios-content container">
+
+            <div class="servicio-1">
+                <i class="fa-sharp fa-solid fa-book-user"></i>
+                <h3>Materias</h3>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="formulario container">
+        <form method="post" autocomplete="off">
+            <h2>Cursando</h2>
+            <div class="input-group">
+                <div class="input-container">
+                    <input type="text" name="Curso" placeholder="En que curso te encuentras actualmente">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="input-container">
+                    <input type="text" name="Materias" placeholder="Que materias prefieres?">
+                    <i class="fa-solid fa-pencil"></i>
+                </div>
+                <input type="submit" name="send" class="btn" onclick="myfuction()">
+
+            </div>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <a href="#">Logo</a>
+            </div>
+
+            <div class="link">
+                <ul>
+                    <li><a href="">INICIO</a></li>
+                    <li><a href="">MATERIAS</a></li>
+                    <li><a href="">APUNTES</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <?php
+        include("send.php");
+    ?>
+
+    <script>
+        function myfuction() {
+            
+        }
+    </script>
+
+</body>
+</html>
