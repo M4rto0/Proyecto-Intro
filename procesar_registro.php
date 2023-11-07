@@ -1,6 +1,6 @@
 <?php
 
-$host = 'C:\Users\marto\OneDrive\Documentos\USM\IWG\Proyecto-IWG\Proyecto-Intro'; 
+$host = 'localhost'; 
 $usuario = 'root'; 
 $contrasena = ''; 
 $base_de_datos = 'proyecto intro'; 
