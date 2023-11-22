@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #F79538;
             margin: 0;
             padding: 0;
             display: flex;
@@ -20,8 +20,9 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 300px;
+            padding: 15px;
+            width: 450px;
+            box-sizing: border-box;
         }
 
         h2 {
@@ -44,6 +45,7 @@
             margin-bottom: 16px;
             border: 1px solid #ccc;
             border-radius: 4px;
+            box-sizing: border-box;
         }
 
         input[type="submit"] {
@@ -76,7 +78,7 @@
 <body>
     <div>
         <h2>Registro</h2>
-        <form action="C:\xampp\htdocs\introing\registro.php" name="usuarios" method="POST">
+        <form action="localhost/introing/registro.php" name="usuarios" method="POST">
             <div>
                 <label for="usuario">Usuario:</label>
                 <input type="text" id="usuario" name="usuario" required placeholder="Ingrese su usuario">
@@ -84,7 +86,21 @@
             <br>
             <div>
                 <label for="curso">Nivel Académico:</label>
-                <input type="text" id="curso" name="curso" required placeholder="Ingrese nivel academico">
+                <select id="curso" name="curso" required>
+                    <option value="" disabled selected>Seleccione un nivel académico</option>
+                    <option value="1ro Básico">1ro Básico</option>
+                    <option value="2do Básico">2do Básico</option>
+                    <option value="3ro Básico">3ro Básico</option>
+                    <option value="4to Básico">4to Básico</option>
+                    <option value="5to Básico">5to Básico</option>
+                    <option value="6to Básico">6to Básico</option>
+                    <option value="7mo Básico">7mo Básico</option>
+                    <option value="8vo Básico">8vo Básico</option>
+                    <option value="1ro Medio">1ro Medio</option>
+                    <option value="2do Medio">2do Medio</option>
+                    <option value="3ro Medio">3ro Medio</option>
+                    <option value="4to Medio">4to Medio</option>
+                </select>
             </div>
             <br>
             <div>
@@ -97,9 +113,7 @@
                 <input type="password" id="contrasena" name="contrasena" required placeholder="Crea una Contraseña">
             </div>
             <br>
-            <div>
                 <input type="submit" value="Registrarse">
-            </div>
         </form>
         <p>¿Ya tienes una cuenta? <a href="index.html">Iniciar sesión</a></p>
     </div>
